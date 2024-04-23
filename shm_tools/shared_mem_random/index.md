@@ -71,6 +71,7 @@ The application is available as [shared-mem-random](https://aur.archlinux.org/pa
 See the [Arch Wiki](https://wiki.archlinux.org/title/Arch_User_Repository) for information about how to install AUR packages.
 
 ### Using the Modbus Collection Flatpak Package: SHM Modbus
+
 [SHM Modbus](https://nikolask-source.github.io/SHM_Modbus/) is a collection of multiple tools to simulate a Modbus client.
 It is available via Flathub as [network.koesling.shm-modbus](https://flathub.org/apps/network.koesling.shm-modbus).
 
