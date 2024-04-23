@@ -4,15 +4,16 @@ This project is a a collection of applications to simulate a Modbus TCP/RTU clie
 
 It contains the following tools:
 
-- General Shared Memory Tools:
+- [General Shared Memory Tools](shm_tools/):
   - [Shared Memory Dump](shm_tools/dump_shm/)
   - [Shared Memory Write](shm_tools/write_shm/)
   - [Shared Memory Randomize](shm_tools/shared_mem_random/)
   - [Shared Memory Formatter](shm_tools/shm_format/)
-- Modbus Clients:
+- [Modbus Clients](modbus_clients/):
   - [RTU](modbus_clients/rtu/)
   - [TCP](modbus_clients/tcp/)
-- Modbus Shared Memory Tools:
+  - [WAGO (Modus Server)](modbus_clients/wago/)
+- [Modbus Shared Memory Tools](shm_modbus/):
   - [STDIN to Modbus SHM](shm_modbus/stdin_to_modbus_shm/)
   - [SHM Modbus Signal Generator](shm_modbus/signal_gen/)
 
@@ -36,7 +37,7 @@ You can download it via the [github releases page](https://github.com/SHMModbus/
 The application is available as flatpak and published on flathub as ```network.koesling.shm-modbus```.
 
 To install from the command line, use the following command:
- 
+
 ```bash
 flatpak install network.koesling.shm-modbus
 ```
