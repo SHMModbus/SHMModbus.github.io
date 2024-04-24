@@ -18,6 +18,7 @@ Options:
 - ```-s, --semaphore```: Enables protection of the shared memory with an existing named semaphore to prevent simultaneous access.
 
 ### Example
+
 ```bash
 dump-shm -b 64 -o 32 -s my_sem my_shm
 ```

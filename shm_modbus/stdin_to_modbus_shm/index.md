@@ -1,4 +1,4 @@
-# STDIN to Modbus Shared Memory
+# SHM Modbus - STDIN to Modbus Shared Memory
 
 This application reads commands from stdin and writes data to the shared memory created by one of the shared memory Modbus clients ([TCP](../../modbus_clients/tcp/)/[RTU](../../modbus_clients/rtu/)).
 
