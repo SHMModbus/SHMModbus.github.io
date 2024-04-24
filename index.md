@@ -4,20 +4,20 @@ This project is a a collection of applications to simulate a Modbus TCP/RTU clie
 
 It contains the following tools:
 
-- [General Shared Memory Tools](shm_tools/):
-  - [Shared Memory Dump](shm_tools/dump_shm/)
-  - [Shared Memory Write](shm_tools/write_shm/)
-  - [Shared Memory Randomize](shm_tools/shared_mem_random/)
-  - [Shared Memory Formatter](shm_tools/shm_format/)
-- [Modbus Clients](modbus_clients/):
-  - [RTU](modbus_clients/rtu/)
-  - [TCP](modbus_clients/tcp/)
-  - [WAGO (Modus Server)](modbus_clients/wago/)
-- [Modbus Shared Memory Tools](shm_modbus/):
-  - [STDIN to Modbus SHM](shm_modbus/stdin_to_modbus_shm/)
-  - [SHM Modbus Signal Generator](shm_modbus/signal_gen/)
+- [General Shared Memory Tools](shm_tools/index.md):
+  - [Shared Memory Dump](shm_tools/dump_shm/index.md)
+  - [Shared Memory Write](shm_tools/write_shm/index.md)
+  - [Shared Memory Randomize](shm_tools/shared_mem_random/index.md)
+  - [Shared Memory Formatter](shm_tools/shm_format/index.md)
+- [Modbus Clients](modbus_clients/index.md):
+  - [RTU](modbus_clients/rtu/index.md)
+  - [TCP](modbus_clients/tcp/index.md)
+  - [WAGO (Modus Server)](modbus_clients/wago/index.md)
+- [Modbus Shared Memory Tools](shm_modbus/index.md):
+  - [STDIN to Modbus SHM](shm_modbus/stdin_to_modbus_shm/index.md)
+  - [SHM Modbus Signal Generator](shm_modbus/signal_gen/index.md)
 
-In addition, a [QT6 GUI](shm_modbus/gui/) is included.
+In addition, a [QT6 GUI](shm_modbus/gui/index.md) is included.
 It provides a subset of all SHM Modbus features.
 
 ## Install
