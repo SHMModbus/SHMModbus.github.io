@@ -166,9 +166,9 @@ See the [Arch Wiki](https://wiki.archlinux.org/title/Arch_User_Repository) for i
 ### Using the Modbus Collection Flatpak Package: SHM Modbus
 
 [SHM Modbus](https://nikolask-source.github.io/SHM_Modbus/) is a collection of multiple tools to simulate a Modbus client.
-It is available via Flathub as [network.koesling.shm-modbus](https://flathub.org/apps/network.koesling.shm-modbus).
+It is available via Flathub as [io.github.shmmodbus.shm-modbus](https://flathub.org/apps/io.github.shmmodbus.shm-modbus).
 
 ```stdin-to-modbus-shm``` is invoked by executing the following command:
 ```
-flatpak run network.koesling.shm-modbus stdin-to-modbus-shm
+flatpak run io.github.shmmodbus.shm-modbus stdin-to-modbus-shm
 ```

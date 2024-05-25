@@ -34,12 +34,12 @@ You can download it via the [github releases page](https://github.com/SHMModbus/
 
 ### Flatpak
 
-The application is available as flatpak and published on flathub as ```network.koesling.shm-modbus```.
+The application is available as flatpak and published on flathub as ```io.github.shmmodbus.shm-modbus```.
 
 To install from the command line, use the following command:
 
 ```bash
-flatpak install network.koesling.shm-modbus
+flatpak install io.github.shmmodbus.shm-modbus
 ```
 
 ## Use
