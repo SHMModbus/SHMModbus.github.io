@@ -1,5 +1,7 @@
 # SHM Modbus - Shared Memory Randomize
 
+This application is included in the [SHM Modbus](../../index.md) collection.
+
 The ```shared-mem-random``` application writes random values to a shared memory.
 It can use an existing shared memory or create a new one.
 

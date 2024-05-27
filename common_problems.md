@@ -1,5 +1,7 @@
 # Shared Memory Modbus Client Simulator - Common Problems
 
+Go back to the [SHM Modbus](index.md) main page.
+
 ## Failed to create Shared Memory or Semaphore (Modbus Client: TCP and RTU)
 
 It can happen that the client reports the following error on startup:

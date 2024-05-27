@@ -1,5 +1,7 @@
 # SHM Modbus - Getting Started
 
+Go back to the [SHM Modbus](index.md) main page.
+
 "This getting started section demonstrates setting up a Shared Memory Modbus client and simulating register data."
 
 ## 1. Start Modbus client

@@ -1,5 +1,7 @@
 # SHM Modbus - Special Tools
 
+Go back to the [SHM Modbus](../index.md) main page.
+
 Documentation for this feature is currently under development and will be available soon.
 
 - [GUI](gui/index.md)
