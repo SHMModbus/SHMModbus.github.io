@@ -1,6 +1,7 @@
-[SHM Modbus](index.md) > Getting Started
-
 # SHM Modbus - Getting Started
+
+[SHM Modbus](index.md) > Getting Started
+---
 
 "This getting started section demonstrates setting up a Shared Memory Modbus client and simulating register data."
 

@@ -1,7 +1,7 @@
+# SHM Modbus - Shared Memory Writer
+
 [SHM Modbus](../../index.md) > [Modbus Tools](../index.md) > write
 ---
-
-# SHM Modbus - Shared Memory Writer
 
 The ```write-shm``` writes the content from its standard input to a named shared memory.
 It provides options to specify the shared memory name and optionally protect it with an existing named semaphore against simultaneous access.
