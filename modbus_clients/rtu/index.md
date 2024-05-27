@@ -1,6 +1,7 @@
 # SHM Modbus - Modbus RTU Client
 
-This application is included in the [SHM Modbus](../../index.md) collection.
+[SHM Modbus](../../index.md) > [Modbus Clients](../index.md) > RTU
+---
 
 The ```modbus-rtu-client-shm``` is a simple command line based Modbus RTU client for POSIX compatible operating systems that stores the contents of its registers in shared memory.
 

@@ -1,6 +1,7 @@
 # SHM Modbus - Modbus Clients
 
-Go back to the [SHM Modbus](../index.md) main page.
+[SHM Modbus](../../index.md) > Modbus Clients
+---
 
 Documentation for this feature is currently under development and will be available soon.
 

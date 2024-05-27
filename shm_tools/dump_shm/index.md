@@ -1,6 +1,7 @@
 # SHM Modbus - Shared Memory Dump
 
-This application is included in the [SHM Modbus](../../index.md) collection.
+[SHM Modbus](../../index.md) > [Modbus Tools](../index.md) > dump
+---
 
 The ```dump-shm``` application is designed to output the content of a shared memory to its standard output. 
 It provides options to specify the shared memory name, limit the number of bytes to output and adjust the offset.

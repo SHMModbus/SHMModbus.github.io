@@ -1,5 +1,6 @@
 # SHM Modbus - SHM Formatter
 
-This application is included in the [SHM Modbus](../../index.md) collection.
+[SHM Modbus](../../index.md) > [Modbus Tools](../index.md) > format
+---
 
 Documentation for this feature is currently under development and will be available soon.
