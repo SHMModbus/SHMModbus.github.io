@@ -1,4 +1,4 @@
-[SHM Modbus](../../index.md) > Modbus Clients
+[SHM Modbus](../index.md) > Modbus Clients
 ---
 
 # SHM Modbus - Modbus Clients

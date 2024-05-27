@@ -1,4 +1,4 @@
-[SHM Modbus](../../index.md) > SHM Modbus Tools
+[SHM Modbus](../index.md) > SHM Modbus Tools
 ---
 
 # SHM Modbus - Special Tools

@@ -1,4 +1,4 @@
-[SHM Modbus](../../index.md) > Modbus Tools
+[SHM Modbus](../index.md) > Modbus Tools
 ---
 
 # SHM Modbus - Shared Memory Tools
