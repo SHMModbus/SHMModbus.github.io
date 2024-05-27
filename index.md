@@ -32,6 +32,12 @@ See the [Arch Wiki](https://wiki.archlinux.org/title/Arch_User_Repository) for i
 The application is available as snap package.
 You can download it via the [github releases page](https://github.com/SHMModbus/SHM_Modbus/releases).
 
+1. download snap file
+2. install: ```sudo snap install --dangerous <shm-modbus_....snap>```
+3. connect plugs:
+    - ```sudo snap connect shm-modbus:shm``` 
+    - ```sudo snap connect shm-modbus:serial-port``` 
+
 ### Flatpak
 
 The application is available as flatpak and published on flathub as ```network.koesling.shm-modbus```.

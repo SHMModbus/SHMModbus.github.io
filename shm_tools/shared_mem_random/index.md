@@ -48,13 +48,13 @@ This command generates random values and writes them once to a shared memory nam
 #### Example 3
 
 ```bash
-shared-mem-random -n modbus_DO -s modbus -a 1 -b 1 --pid $(pidof modbus-tcp-client-shm)
+shared-mem-random -n modbus_DO -s modbus -a 1 -b 1 --pid $(pidof shared-mem-random)
 ```
 
 This command generates random values and writes them to a shared memory named ```modbus_DO```, utilizing a semaphore named ```modbus``` for protection against simultaneous access. 
 Random values are generated with a byte alignment of 1 at intervals of 500 milliseconds, and a bit mask of 1 is applied to the generated random values. 
 Thus, only the lowest bit of each byte is randomized. 
-Additionally, it sets up termination of the shared-mem-random application if the process with the PID of the ```modbus-tcp-client-shm``` application terminates.
+Additionally, it sets up termination of the shared-mem-random application if the process with the PID of the ```shared-mem-random``` application terminates.
 
 #### Example 4
 
@@ -73,13 +73,27 @@ The application processes a maximum of 8 elements and runs for a single iteratio
 The application is available as [shared-mem-random](https://aur.archlinux.org/packages/shared-mem-random) in the [Arch User Repository](https://aur.archlinux.org/).
 See the [Arch Wiki](https://wiki.archlinux.org/title/Arch_User_Repository) for information about how to install AUR packages.
 
-### Using the Modbus Collection Flatpak Package: SHM Modbus
+### Using the Modbus Collection Package: SHM Modbus
 
 [SHM Modbus](https://nikolask-source.github.io/SHM_Modbus/) is a collection of multiple tools to simulate a Modbus client.
-It is available via Flathub as [network.koesling.shm-modbus](https://flathub.org/apps/network.koesling.shm-modbus).
+
+#### Flatpak
+
+The Flatpak package is available via Flathub as [network.koesling.shm-modbus](https://flathub.org/apps/network.koesling.shm-modbus).
 
 ```shared-mem-random``` is invoked by executing the following command:
+
 ```
 flatpak run network.koesling.shm-modbus shared-mem-random
+```
+
+#### Snap:
+
+The snap package can be downloaded via the [github release page](https://github.com/SHMModbus/SHM_Modbus/releases).
+
+```shared-mem-random``` is invoked by executing the following command:
+
+```
+shm-modbus.shared-mem-random
 ```
 

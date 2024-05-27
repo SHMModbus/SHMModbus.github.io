@@ -154,7 +154,7 @@ If this process terminates, ```stdin-to-modbus-shm``` is terminated.
 Usage example:
 
 ```bash
-stdin-to-modbus-shm --pid $(pidof modbus-tcp-client-shm)
+stdin-to-modbus-shm --pid $(pidof stdin-to-modbus-shm)
 ```
 
 > Note: ```stdin-to-modbus-shm``` does not reconnect to a new shared memory if the modbus client is restarted. Thus, using the ```--pid``` option is highly recommended.
@@ -166,12 +166,26 @@ stdin-to-modbus-shm --pid $(pidof modbus-tcp-client-shm)
 The application is available as [stdin-to-modbus-shm](https://aur.archlinux.org/packages/stdin-to-modbus-shm) in the [Arch User Repository](https://aur.archlinux.org/).
 See the [Arch Wiki](https://wiki.archlinux.org/title/Arch_User_Repository) for information about how to install AUR packages.
 
-### Using the Modbus Collection Flatpak Package: SHM Modbus
+### Using the Modbus Collection Package: SHM Modbus
 
 [SHM Modbus](https://nikolask-source.github.io/SHM_Modbus/) is a collection of multiple tools to simulate a Modbus client.
-It is available via Flathub as [network.koesling.shm-modbus](https://flathub.org/apps/network.koesling.shm-modbus).
+
+#### Flatpak
+
+The Flatpak package is available via Flathub as [network.koesling.shm-modbus](https://flathub.org/apps/network.koesling.shm-modbus).
 
 ```stdin-to-modbus-shm``` is invoked by executing the following command:
+
 ```
 flatpak run network.koesling.shm-modbus stdin-to-modbus-shm
+```
+
+#### Snap:
+
+The snap package can be downloaded via the [github release page](https://github.com/SHMModbus/SHM_Modbus/releases).
+
+```stdin-to-modbus-shm``` is invoked by executing the following command:
+
+```
+shm-modbus.stdin-to-modbus-shm
 ```

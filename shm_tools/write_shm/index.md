@@ -80,12 +80,26 @@ Additionally, it will be protected by the semaphore ```my_sem``` to prevent simu
 The application is available as [write-shm](https://aur.archlinux.org/packages/write-shm) in the [Arch User Repository](https://aur.archlinux.org/).
 See the [Arch Wiki](https://wiki.archlinux.org/title/Arch_User_Repository) for information about how to install AUR packages.
 
-### Using the Modbus Collection Flatpak Package: SHM Modbus
+### Using the Modbus Collection Package: SHM Modbus
 
 [SHM Modbus](https://nikolask-source.github.io/SHM_Modbus/) is a collection of multiple tools to simulate a Modbus client.
-It is available via Flathub as [network.koesling.shm-modbus](https://flathub.org/apps/network.koesling.shm-modbus).
+
+#### Flatpak
+
+The Flatpak package is available via Flathub as [network.koesling.shm-modbus](https://flathub.org/apps/network.koesling.shm-modbus).
 
 ```write-shm``` is invoked by executing the following command:
+
 ```
 flatpak run network.koesling.shm-modbus write-shm
+```
+
+#### Snap:
+
+The snap package can be downloaded via the [github release page](https://github.com/SHMModbus/SHM_Modbus/releases).
+
+```write-shm``` is invoked by executing the following command:
+
+```
+shm-modbus.write-shm
 ```
