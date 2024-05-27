@@ -1,7 +1,7 @@
-# SHM Modbus - Modbus Server for WAGO Modbus Coupler
-
 [SHM Modbus](../../index.md) > [Modbus Clients](../index.md) > WAGO
 ---
+
+# SHM Modbus - Modbus Server for WAGO Modbus Coupler
 
 ```wago-modbus-coupler-shm``` is a Modbus server application designed to connect to a WAGO Modbus TCP coupler.
 It retrieves values from the Modbus coupler and stores them in shared memory for easy access by other applications.

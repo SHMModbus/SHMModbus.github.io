@@ -1,7 +1,7 @@
-# SHM Modbus - Shared Memory Tools
-
 [SHM Modbus](../../index.md) > Modbus Tools
 ---
+
+# SHM Modbus - Shared Memory Tools
 
 Documentation for this feature is currently under development and will be available soon.
 

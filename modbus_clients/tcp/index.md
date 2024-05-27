@@ -1,7 +1,7 @@
-# SHM Modbus - Modbus TCP Client
-
 [SHM Modbus](../../index.md) > [Modbus Clients](../index.md) > TCP
 ---
+
+# SHM Modbus - Modbus TCP Client
 
 The ```modbus-tcp-client-shm``` is a simple command line based Modbus TCP client for POSIX compatible operating systems that stores the contents of its registers in shared memory.
 

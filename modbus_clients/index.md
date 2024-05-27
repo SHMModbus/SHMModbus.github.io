@@ -1,7 +1,7 @@
-# SHM Modbus - Modbus Clients
-
 [SHM Modbus](../../index.md) > Modbus Clients
 ---
+
+# SHM Modbus - Modbus Clients
 
 Documentation for this feature is currently under development and will be available soon.
 
