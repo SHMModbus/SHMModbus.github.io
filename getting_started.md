@@ -12,7 +12,7 @@ modbus-tcp-client-shm --semaphore modbus -p 5020
 ```
 
 This command starts a shared memory Modbus TCP client listening on port ```5020```.
-It creates the shared memories ```modbus_DO```, ```modbus_DI```, ```modbus_AO``` and ```modbus_AI``,
+It creates the shared memories ```modbus_DO```, ```modbus_DI```, ```modbus_AO``` and ```modbus_AI```,
 and creates the semaphore ```modbus``` to protect the shared memory from simultaneous access.
 
 For more details about using the Modbus clients see [modbus-tcp-client-shm](modbus_clients/tcp/index.md) and [modbus-rtu-client-shm](modbus_clients/rtu/index.md).
