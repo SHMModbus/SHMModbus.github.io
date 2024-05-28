@@ -3,8 +3,8 @@
 [SHM Modbus](../index.md) > Modbus Clients
 ---
 
-Documentation for this feature is currently under development and will be available soon.
+SHM Modbus provides three Modbus Applications.
+Two clients ([TCP](tcp/index.md) and [RTU](rtu/index.md)) 
+and one server ([WAGO Modbus Coupler](wago/index.md)).
 
-- [Modbus TCP Client](tcp/index.md)
-- [Modbus RTU Client](rtu/index.md)
-- [WAGO Modbus Coupler](wago/index.md)
+The clients are available via the [GUI](../shm_modbus/gui/index.md).

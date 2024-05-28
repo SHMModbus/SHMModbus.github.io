@@ -3,7 +3,7 @@
 [SHM Modbus](../index.md) > Modbus Tools
 ---
 
-Documentation for this feature is currently under development and will be available soon.
+SHM Modbus provides the following generic tool to interact with shared memory:
 
 - [Dump](dump_shm/index.md)
 - [Randomize](shared_mem_random/index.md)
