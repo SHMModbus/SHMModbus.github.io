@@ -10,7 +10,7 @@ This application reads commands from stdin and writes data to the shared memory 
 
 The application can be started, after starting one of the Modbus clients with standard shared memory prefix, without any further arguments.
 
-If the shared memory name prefix has been changed, it can be adjusted via the argument ```----name-prefix```.
+If the shared memory name prefix has been changed, it can be adjusted via the argument ```--name-prefix```.
 
 After its startup, the application reads commands from stdin. 
 Provide one command per line.
