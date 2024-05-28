@@ -87,7 +87,7 @@ The Flatpak package is available via Flathub as [network.koesling.shm-modbus](ht
 flatpak run network.koesling.shm-modbus shared-mem-random
 ```
 
-#### Snap:
+#### Snap
 
 The snap package can be downloaded via the [github release page](https://github.com/SHMModbus/SHM_Modbus/releases).
 
