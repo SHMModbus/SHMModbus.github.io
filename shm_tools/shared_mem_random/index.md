@@ -12,7 +12,7 @@ It can use an existing shared memory or create a new one.
 
 - ```-n, --name```: Mandatory name of the shared memory object.
 - ```-c, --create```: Creates a shared memory segment with the given size in bytes.
-- ````--force```: Forces the creation of shared memory even if it already exists. This option is only relevant if -c is used.
+- ```--force```: Forces the creation of shared memory even if it already exists. This option is only relevant if -c is used.
 - ```-p, --permissions```: Specifies the permission bits applied when creating a shared memory segment. The default permission bits are 0660.
 - ```--semaphore```: Protects the shared memory with a named semaphore against simultaneous access. If -c is used, the semaphore is created; otherwise, an existing semaphore is required.
 - ```--semaphore-force```: Forces the use of the semaphore even if it already exists. This option should only be used if the semaphore of an improperly terminated instance continues to exist as an orphan and is no longer used. This option is only relevant if -c is used.
