@@ -67,12 +67,12 @@ See the [Arch Wiki](https://wiki.archlinux.org/title/Arch_User_Repository) for i
 
 #### Flatpak
 
-The Flatpak package is available via Flathub as [network.koesling.shm-modbus](https://flathub.org/apps/network.koesling.shm-modbus).
+The Flatpak package is available via Flathub as [io.github.shmmodbus.shm-modbus](https://flathub.org/apps/io.github.shmmodbus.shm-modbus).
 
 ```wago-modbus-coupler-shm``` is invoked by executing the following command:
 
 ```
-flatpak run network.koesling.shm-modbus wago-modbus-coupler-shm
+flatpak run io.github.shmmodbus.shm-modbus wago-modbus-coupler-shm
 ```
 
 #### Snap
